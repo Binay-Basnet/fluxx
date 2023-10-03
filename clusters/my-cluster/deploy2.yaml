@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ginx-deployment
+  name: nginx-deployment
   namespace: flux-system
   labels:
     app: nginx
